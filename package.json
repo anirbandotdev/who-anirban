@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "who-anirban" : "./bin/who-anirban.js"
+    "who-anirban": "bin/who-anirban.js"
   },
   "type": "module",
+  "files": [
+    "bin",
+    "src"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
